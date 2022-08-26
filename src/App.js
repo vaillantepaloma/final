@@ -17,7 +17,10 @@ function App() {
     // (loading ? <Load/> :(
     <div className="App">
      <Router>
+      <Login />
        <Routes>
+        
+        
          <Route path="/" element={<Home/>} />
          <Route path="/login" element={<Login/>} />
          <Route path="/*" element={<Pagenotfound/>}/>
