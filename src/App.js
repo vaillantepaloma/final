@@ -18,8 +18,8 @@ function App() {
     <div className="App">
      <Router>
        <Routes>
-         <Route path="/" element={<Home/>} />
-         <Route path="/login" element={<Login/>} />
+         {/* <Route path="/" element={<Home/>} /> */}
+         <Route path="/" element={<Login/>} />
          <Route path="/*" element={<Pagenotfound/>}/>
        </Routes>
      </Router>
