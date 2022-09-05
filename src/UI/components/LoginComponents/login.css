@@ -1,25 +1,23 @@
-/* 
- */
+
 
  .login {
     width: 100%;
     height: 100%;
     background-color: white;
     display: flex;
-    /* flex-direction: column; */
+    
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
-
+  h1{
+    align-items: center;
+     margin-left: 180px;
+  }
+  .btn{
+    color: #0F21C3;
+  }
   .pic-side{
-/* width: 65%;
-height: 657px;
-max-height: 657px;
-display: inline-block;
-background-color: black;
-color: white;
-font-style: lora;
-text-align: center; */
+
 position: absolute;
 width: 676px;
 height: 657px;
@@ -33,38 +31,31 @@ background-position: cover;
 /* background: url(../../../images/.jpg); */
   }
 
-  .form-side{
+   .form-side{
     width: 280px;
     height: 400px;
     background: #FFFFFF;
    position: fixed;
     top: -20px;
-    left: 700px;
-    padding: 80px;
-    /* border-radius: 20px;
-    padding: 20px;
+    left: 800px;
+    padding: 15px;
+    align-items: center;
+     
     
-    margin-top: 100px;
-    border-radius: 0%;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 0px;
-    border: 2px solid #FFFFFF;
-     */
-  }
+   } 
 
-  .login-form{
+  .loginf{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    height: 80px;
+     position: absolute; 
+    /* background-color:pink; */
+    gap: 10px;
+    
   }
-
-  
+ 
   .log{
     box-sizing: border-box;
+    color: #FFFFFF;
 
 /* position: absolute; */
 width: 410px;
@@ -89,34 +80,97 @@ border-radius: 12px;
     color: #0F21C3;
     right: 170px;
   }
+
+  .e{
+    text-align: left;
+    padding: 0 10px;
+    margin: 0;
+  }
+
+
+  .p{
+    text-align: left;
+    padding: 0 10px;
+    margin: 0;
+    margin-top: 20px;
+  }
 .loginb{
+  display: flex; 
   box-sizing: border-box;
+  
 
 /* position: absolute; */
 width: 410px;
 height: 38px;
 left: 0px;
 top: 280px;
-
+/* text-align: center;
+margin-left: 40px; */
 background: #FFFFFF;
 border: 1px solid rgba(30, 30, 30, 0.16);
 border-radius: 12px;
 
 
 }
+
+.lo {
+  margin-bottom: 10px;
+}
+
+button img{
+  width: 20px;
+  display: flex;
+  gap: 20px;
+}
 /* .input{
   position: relative;
   
 } */
-#in{
-  width: 400px;
+#input{
+  width: 100%;
   height: 40px;
   box-sizing: border-box;
 border: 1px solid rgba(30, 30, 30, 0.16);
 border-radius: 12px;
+position: relative;
+
 }
 .head{
   padding-top: 250px;
   color: #FFFFFF;
+  
 
+}
+.logg{
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.logt{
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+margin-top: 10px;
+margin-left: 10px;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
+.input{
+  margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 760px) {
+  .pic-side{
+    display: none;
+  }
+  .form-side{
+    align-items: center;
+  }
+  
 }
