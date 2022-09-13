@@ -1,0 +1,122 @@
+.top-nav-bar{
+    
+    width: 100vw;
+    height: 10vh;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background: #112E4A;
+    width: 15%;
+    height: 100vh;
+    /* padding: 0px; */
+    flex-direction: column;
+    /* gap: 320px; */
+    display: flex;
+    position: absolute;
+   
+}
+.left-content{
+    margin-left: 40px;
+   
+}
+h{
+    width: 74px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 19px;    
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    position: absolute;
+    left: 25px;
+    letter-spacing: 0.01em;
+    color: #000000; 
+}
+.defLog{
+    position: relative;
+    left: 18%;
+    top: 5px;
+    display: flex;
+    
+    height: 50px;
+    width: 150px;
+}
+#lg{
+    left: 15px;
+    position: absolute;
+}
+.left-content{
+    text-decoration: none;
+    position: relative;
+}
+.Sub-Vst{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 5px;
+    top: 500px;
+    bottom: 20px;
+    background: linear-gradient(180deg, #699BF7 -57.26%, rgba(105, 155, 247, 0.921875) 13.05%, rgba(105, 155, 247, 0) 92.74%);
+    opacity: 0.41;
+    border-radius: 20px 20px 0px 0px;
+}
+.Sub-Vst1{
+    width: 100%;
+    border-radius: 10px;
+    height: 50%;
+    top: 20px;
+    bottom: 20px;
+    background-color: aliceblue;
+    position: absolute;
+}
+.right{
+    background: #0000001A;
+    width: 100vw;
+    
+    height: 100vh;
+}
+.midle{
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 250px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+    width: 20vw;
+    height: 90vh; 
+}
+.right1{
+    position: absolute;
+    gap: 5px;
+    flex-direction: row;
+     width: 790px;
+    height: 57px;
+    top: 95px;
+    margin-left: 560px;    
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+letter-spacing: 0.06em;
+color: #000000;
+
+}
+.right2{
+    position: absolute;
+    width: 790px;
+height: 480px;
+left: 0px;
+top: 108px;
+background-color: #FFFFFF;
+
+/* background: #FFFFFF; */
+}

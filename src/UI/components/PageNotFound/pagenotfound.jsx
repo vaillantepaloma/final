@@ -1,6 +1,8 @@
 import React from 'react'
 import "./pagenotfound.css"
 import Images from "../../images/kiraka.PNG";
+import { Link } from 'react-router-dom';
+
 // import Pic from "../../images/not.png"
 
 function Pagenotfound() {
@@ -24,7 +26,7 @@ function Pagenotfound() {
             <input  id="in" placeholder=""></input>
             <p className='p'>phonenumber</p>
             <input id="in" placeholder=""></input>
-            <button className='logc'>submit</button>
+            <button className='logc' ><Link to="/dashboard" class="butn"> submit </Link></button>
 
             
 </form>
