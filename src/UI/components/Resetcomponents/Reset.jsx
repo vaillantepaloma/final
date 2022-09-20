@@ -9,10 +9,12 @@ import { Link } from 'react-router-dom';
 function Reset(){
     return(
      <div className='Reset-form'>
-        <img className='photo'src ={Images} alt ="logo"></img>
-                   <h1>set new password</h1>
+      
+        {/* <img className='photo'src ={Images} alt ="logo"></img>
+                   <h1 className='head'>set new password</h1> */}
                    <div className='form1'>
-           
+                   <img className='photo'src ={Images} alt ="logo"></img>
+                   <h6>set new password</h6>
               <p className='p2'>Your new password must be different the 
                 previous used passwords.</p>
                  <p>password</p>

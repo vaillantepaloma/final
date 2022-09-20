@@ -8,6 +8,15 @@ import Google from "../../images/google.png";
 import Twitter from "../../images/twitter.png";
 
 function Login() {
+
+  // const articLes = [
+  //   {
+  //     name: "vaillante"
+  //   },
+  //   {
+  //     name: "kevin"
+  //   }
+  // ]
   return (
     <div className="login">
       <div className="pic-side"
@@ -40,18 +49,29 @@ function Login() {
                <div>
                           <p className="link">Don't have an account ? <Link to="/Signup" class="btn">Sign up</Link> </p>
                          <h4>or</h4>
-                          <button className='loginb lo'>
+                          <button type="button"className='loginb lo'>
                             <img src={Google} alt="google" className='logg' />
                             <h5 className='logt'>Log in with Google</h5>
                             </button>              
-                          <button className='loginb '>
+                          <button type="button" className='loginb '>
                           <img src={Twitter} alt="twitter" className='logg' />
 
                             <h6 className='logt'>Log in with twitter</h6>
                             </button>
  
 
- 
+ <div>
+  {/* {
+    articLes.map(article=>{
+      return (
+        
+          <h1>{article.name}</h1>
+        
+      )
+    })
+  } */}
+
+ </div>
                           </div> 
 
             </div>
