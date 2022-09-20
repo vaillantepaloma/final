@@ -27,6 +27,7 @@ function App() {
          <Route path="/Reset*" element={<Reset/>}/>
          <Route path="/LOgin*" element={< Login/>}/>
          <Route path="/dashboard" element={< Dashboard/>}/>
+         <Route path="/dashboard/:page" element={< Dashboard/>}/>
 
          {/* <Route path="/Signup" element={<Signup/>}/> */}
        </Routes>

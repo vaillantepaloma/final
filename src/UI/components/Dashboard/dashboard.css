@@ -9,6 +9,7 @@
 }
 .left{
     background: #112E4A;
+    color: #FFFFFF;
     width: 15%;
     height: 100vh;
     /* padding: 0px; */
@@ -65,28 +66,139 @@ h{
     border-radius: 20px 20px 0px 0px;
 }
 .Sub-Vst1{
-    width: 100%;
-    border-radius: 10px;
-    height: 50%;
-    top: 20px;
+    /* width: 100%; */
+    border-radius: 66px;
+    height: 20%;
+    top: 30px;
     bottom: 20px;
-    background-color: aliceblue;
+    background-color:#FFFFFF;
     position: absolute;
+    color: #699BF7;
 }
 .right{
     background: #0000001A;
     width: 100vw;
-    
+
     height: 100vh;
 }
 .midle{
+    padding-top: 10px;
     border-radius: 15px;
     margin-top: 30px;
-    margin-left: 250px;
+    margin-left: 20%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: white;
     width: 20vw;
     height: 90vh; 
+    position: relative;
+}
+.f-middle{
+    /* background-color: #699BF7; */
+    /* top: 10px; */
+    height: 170px;
+    width: 150px;
+    left: 60px;
+
+   position: absolute;
+}
+#lg2{
+   
+    position: relative;
+    height: 50px;
+    margin-left: 110px;
+    bottom: 20px;
+    border-radius: 30px;
+}
+.s{
+width: 91px;
+height: 16px;
+font-family: 'Work Sans';
+font-style: normal;
+font-size: 10px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: 0.01em;
+color: #000000;
+flex: none;
+/*  */
+}
+#lg1{
+border-radius: 500px;
+height: 80px;
+margin-left: 35px;
+}
+.s-middle{
+    border-top: #000000;
+    position: absolute;
+    height: 65px;
+    width: 273px;
+    margin-top: 180px;
+    border-bottom: 0px solid ;
+    border-top: 0px solid;
+    display: flex;
+    gap: 40px;
+    background-color:#FFFFFF;
+}
+.t-middle{
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: 285px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 40px;
+    border-bottom: 0px solid;
+    font-size: 10px;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+    
+    
+}
+.u-middle{
+    /* background-color:yellow; */
+    margin-top: 400px;
+    position: absolute;
+    border-radius: 0px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 19px;
+    /* margin-left: 30px; */
+
+}
+.A{
+    margin-top: 245px;
+    position: absolute;
+    
+}
+.iconss{
+    position: relative;
+    top: 25px;
+    display: flex;
+    height: 10px;
+ margin-left: 470px;
+ gap: 30px;
+   
+}
+
+.s-rate{
+    border-radius: 5px;
+    background-color: orange;
+    padding: 5px;
+    height: 25px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.s-add{
+    border-radius: 5px;
+   background-color:blue;
+    height: 25px; 
+    border-radius: 20px;
+    color:#FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px;
 }
 .right1{
     position: absolute;
@@ -100,7 +212,7 @@ h{
     border-radius: 10px 10px 0px 0px;
 
 
-font-family: 'Poppins';
+    font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -110,13 +222,49 @@ letter-spacing: 0.06em;
 color: #000000;
 
 }
-.right2{
+.h4
+{
     position: absolute;
-    width: 790px;
-height: 480px;
+    width: 59px;
+    height: 21px;
+    left: 459px;
+    top: 70px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+     
+    color: #000000;
+    
+}
+#h4{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 457px;
+top: 96px;
+font-family: 'Poppins';
+font-style: normal;
+color: #000000;
+top: 30px;
+}
+.right2{
+position: absolute;
+width: 790px;
+height: 550px;
 left: 0px;
 top: 108px;
 background-color: #FFFFFF;
+line-height: 17px;
 
 /* background: #FFFFFF; */
+}
+.vec{
+    position: absolute;
+    height: 20px;
+    width: 20px;
 }
